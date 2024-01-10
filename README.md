@@ -2,7 +2,7 @@
 
 This repository contains a collection of IP addresses that were responsible for a DDoS attack on one of my personal machines. By blacklisting these IP addresses on your machine, we can help each other prevent further attacks.
 
-**Note:** To ensure the validity of the IP addresses being added, please provide a valid proof of the DDoS attack. You can send the IP addresses list along with the proof via email to [shreshth.tiwari.24@gmail.com](mailto:shreshth.tiwari.24@gmail.com) or share it on Discord. My Discord ID is ShreshthTiwari.
+**Note:** To ensure the validity of the IP addresses being added, please provide a valid proof of the DDoS attack. You can send the IP addresses list along with the proof via email to [shreshth.tiwari.24@gmail.com](mailto:shreshth.tiwari.24@gmail.com) or share it on Discord. My Discord ID is **`ShreshthTiwari`**.
 
 ## Directory Structure
 
