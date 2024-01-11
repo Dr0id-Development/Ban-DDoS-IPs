@@ -1,4 +1,4 @@
-# 11-Jan-2024 | 12:50 AM IST
+# 11-Jan-2024
 ufw deny from 45.171.156.49 to any
 ufw deny from 91.211.7.14 to any
 ufw deny from 103.111.118.73 to any
