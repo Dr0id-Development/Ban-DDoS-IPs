@@ -6257,7 +6257,6 @@ ufw deny from 45.128.133.145 to any
 ufw deny from 197.254.11.250 to any
 ufw deny from 191.102.160.14 to any
 ufw deny from 115.244.127.167 to any
-ufw deny from 172.99.187.33 to any
 ufw deny from 123.30.154.171 to any
 ufw deny from 37.52.13.164 to any
 ufw deny from 181.209.107.138 to any
@@ -8173,7 +8172,6 @@ ufw deny from 162.241.46.6 to any
 ufw deny from 138.94.76.86 to any
 ufw deny from 38.52.162.255 to any
 ufw deny from 202.148.31.222 to any
-ufw deny from 37.53.103.4 to any
 ufw deny from 163.53.82.237 to any
 ufw deny from 177.234.244.171 to any
 ufw deny from 186.167.24.66 to any
