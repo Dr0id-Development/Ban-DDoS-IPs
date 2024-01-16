@@ -1,0 +1,15 @@
+{
+  "name": "ban-ddos-ips",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of IP addresses that were responsible for a DDoS attack on one of my personal machines. By blacklisting these IP addresses on your machine, we can help each other prevent further attacks.",
+  "main": "generateScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ip": "^1.1.8"
+  }
+}
