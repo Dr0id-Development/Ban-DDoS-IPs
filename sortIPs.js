@@ -7,7 +7,17 @@ const main = () => {
   const processAndWriteIPs = (inputFile, outputFile, isIPv4) => {
     let ips = fs.readFileSync(inputFile).toString().split("\n");
 
-    let uniqueIps = removeDuplicates(ips.filter((IP) => (isIPv4 ? ip.isV4Format(IP) : ip.isV6Format(IP))));
+    let modifiedIps;
+
+    if(isIPv4){
+      modifiedIps = ips.map((ip) => {
+        return ip.split(":")[0];
+      });
+    } else {
+      modifiedIps = ips;
+    }
+
+    let uniqueIps = removeDuplicates(modifiedIps.filter((IP) => (isIPv4 ? ip.isV4Format(IP) : ip.isV6Format(IP))));
 
     let sortedIps = uniqueIps.sort((a, b) => a.localeCompare(b));
 
